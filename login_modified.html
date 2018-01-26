@@ -1,0 +1,158 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Explore
+ @SnehaVshekar
+ Sign out
+ Watch 1
+  Star 0  Fork 2 vashama/BrewDay
+ Code  Issues 0  Pull requests 1  Projects 0  Wiki  Insights
+Branch: master Find file Copy pathBrewDay/BrewDay/login.html
+d7cd2e1  a day ago
+@rjakshayjain13 rjakshayjain13 Modifications
+2 contributors @vashama @rjakshayjain13
+RawBlameHistory     
+141 lines (118 sloc)  5.74 KB
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Brew Day</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/brewday.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+    <div class="brand">Brew Day</div>
+    <div class="address-bar">Arizona State University</div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html">Home</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="recipes.html">Recipes</a>
+                    </li>
+                    <li>
+                        <a href="login.html">Login</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <center>
+
+                    <div class="col-md-12">
+                            <form class="form-signin">
+                                    <hr>
+                                    <h2 class="form-signin-heading">Login here</h2>
+                                    <hr>
+                              <input type="email" class="form-control" name="username" placeholder="Email Address" required autofocus />
+                                <br/>
+
+                              <input type="password" class="form-control" name="password" placeholder="Password" required/>      
+                              <label class="checkbox">
+                                <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
+                              </label>
+                              <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+                              <h4>Not a member?    <a href="signup.html">Sign up</a></h4>
+                            </form>
+                </div>
+                </center>
+            </div>
+        </div>
+
+        <div class="row">
+                <div class="box">
+                    <div class="col-lg-12">
+                        <hr>
+                        <h2 class="intro-text text-center"><strong>Advantages of Members</strong></h2>
+                        <hr>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-responsive img-border-left" src="http://decision-architects.com/wp-content/uploads/2017/02/Beer_2-1-400x250.jpg" alt="">
+                    </div>
+                    <div class="col-md-8 text-justify">
+                        <p>Home brewers come up with innovative approaches to most of the popular beer recipes popular in the market. 
+                            Industrial strength in this domain would help empower a furthermore accessible community comprising of experts across the spectrum. 
+                            This is what Brew Day aims at attaining, and being a part of it have unparalleled benefits over non-persistent brew mechanisms.
+                            Storing recipes, sharing among peers, and having an extended pool of resources help achieve professional contact points from a global standpoint. 
+                            This in turn promotes the small scale industry from the development standpoint, thereby aiding the best possible brew quality intelligible. 
+                            Join us now, and unveil your "True Brew Self"..</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+
+    </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>SER 518 - Group 7</p>  
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
